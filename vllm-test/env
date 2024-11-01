@@ -1,0 +1,7 @@
+cp env.sample env
+$EDITOR env
+# and set:
+export ORGANIZATION=vllm-test # change as needed
+export AGENT_TOKEN=kW8XzoXfs8cy76eod4SWReVQ  # replace as needed
+export GRAPHQL_TOKEN=bkua_c73fc0565e4a6f4b00eff41e8308a91a597dc5bc # replace with token created in step 2
+export CLUSTER_UUID=vllm-test # get this from https://buildkite.com/organizations/<YOUR_USERNAME>/clusters/
